@@ -1,0 +1,3 @@
+# PHPOO_do_jeito_certo
+
+#Cadastro de usuário com e-mail, válida o e-mail de forma a não se repetir dentro do banco de dados...
