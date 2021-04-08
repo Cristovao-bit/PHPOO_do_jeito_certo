@@ -1,0 +1,25 @@
+{
+    "name": "cristovaolbraga/phpdojeitocertooop",
+    "description": "Projeto de exemplo sobre POO da Webserie PHP do jeito certo",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristovão Lira Braga",
+            "email": "ml.manutencaolira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "ext-pdo": "*",
+        "coffeecode/datalayer": "1.1.*",
+        "fzaninotto/faker": "1.8.*"
+    }
+}
